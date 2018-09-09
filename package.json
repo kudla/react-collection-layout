@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Collection layout component",
   "main": "lib/react-collection-layout.js",
+  "sideEffects": false,
   "scripts": {
     "lint": "eslint ./src",
     "build": "webpack --env dev && webpack --env build && npm run test",
@@ -46,5 +47,8 @@
     "webpack": "^4.12.2",
     "webpack-cli": "^3.0.8",
     "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
