@@ -10,7 +10,8 @@
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require babel-register --colors ./test/*.spec.js",
     "test:watch": "mocha --require babel-register --colors -w ./test/*.spec.js",
-    "patch": "npm run build && npm version patch"
+    "patch": "npm run build && npm version patch",
+    "postpublish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
