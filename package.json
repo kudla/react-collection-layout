@@ -1,6 +1,6 @@
 {
   "name": "react-collection-layout",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collection layout component",
   "main": "lib/react-collection-layout.js",
   "sideEffects": false,
